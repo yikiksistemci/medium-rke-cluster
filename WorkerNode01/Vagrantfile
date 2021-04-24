@@ -1,0 +1,16 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/7"
+  config.vm.network :public_network, ip: '192.168.1.22', bridge: "br0", dev: "br0" #please change device name and ip
+  config.vm.provider "libvirt" do |vb|
+     vb.cpus = 2
+     vb.memory = "2048"
+  end   
+  config.vm.provision "file", source: "id_rsa.pub", destination: "/tmp/"
+  config.vm.provision "file", source: "ansadmin"    , destination: "/tmp/" 
+  config.vm.provision "file", source: "init_script.sh", destination: "/tmp/"
+  config.vm.provision "file", source: "id_rsa.pub_manager", destination: "/tmp/"
+  config.vm.provision "shell",inline: "/bin/bash /tmp/init_script.sh"
+end
