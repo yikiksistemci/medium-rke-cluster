@@ -1,5 +1,7 @@
 # RKE (Rancher Kubernetes Engine)+ Vagrant + Shell Script Kubernetes Cluster Kurulumu
 
+![banner](../files/banner.png)
+
 # Rancher Nedir?
 Rancher, CNCF tarafından onaylanan bir projedir. Konteyner evreninde oldukça karmaşık bir hale gelen ağ yönetimi, auto-scaler, storage vb. sorunlar için çözümleri tek bir çatı altında toplayan ve oldukça basitleştiren açık kaynak kodlu bir konteyner orkestrasyon servisidir.
 Arka planda Kubernetes'ı kullanarak konteyner orkestrasyonu sağlar. Rancher farklı orkestratörle çalışabilir, aynı zamanda kendi orkestratörlerinide kullanabilir: Cattle gibi.
@@ -205,4 +207,4 @@ worker01   Ready    etcd,worker                10m   v1.18.16   192.168.1.22   <
 worker02   Ready    etcd,worker                10m   v1.18.16   192.168.1.23   <none>        CentOS Linux 7 (Core)   3.10.0-1127.el7.x86_64        docker://19.3.15
 ```
 
-![banner](../files/banner.png)
+
