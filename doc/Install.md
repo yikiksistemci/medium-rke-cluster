@@ -163,7 +163,7 @@ $ sudo virsh list
 
 Makinalar ayağa kalktıktan sonra RKE ile cluster.yml dosyamızı oluşturalım ve makina tanımlarımızı ekleyelim.
 
-![Untitled.png](files/rancher_up.png)
+![rancher_up](files/rancher_up.png)
 
 Daha sonra "rke up" komutu ile cluster kurulumunu başlatalım.
 
@@ -205,4 +205,4 @@ worker01   Ready    etcd,worker                10m   v1.18.16   192.168.1.22   <
 worker02   Ready    etcd,worker                10m   v1.18.16   192.168.1.23   <none>        CentOS Linux 7 (Core)   3.10.0-1127.el7.x86_64        docker://19.3.15
 ```
 
-![Untitled1.png](banner.png)
+![banner.pgn](files/banner.png)
