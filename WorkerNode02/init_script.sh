@@ -1,5 +1,5 @@
 #!/bin/bash
-hostnamectl set-hostname ansible-node01
+hostnamectl set-hostname worker02
 update_package(){
     echo "Update Any Package"
     yum update -y 
