@@ -163,7 +163,7 @@ $ sudo virsh list
 
 Makinalar ayağa kalktıktan sonra RKE ile cluster.yml dosyamızı oluşturalım ve makina tanımlarımızı ekleyelim.
 
-![RKE%20(Rancher%20Kubernetes%20Engine)+%20Vagrant%20+%20Shell%20S%20255c823035ae46b4b1dd2c3a46ae562d/Untitled.png](RKE%20(Rancher%20Kubernetes%20Engine)+%20Vagrant%20+%20Shell%20S%20255c823035ae46b4b1dd2c3a46ae562d/Untitled.png)
+![Untitled.png](RKE%20(Rancher%20Kubernetes%20Engine)+%20Vagrant%20+%20Shell%20S%20255c823035ae46b4b1dd2c3a46ae562d/Untitled.png)
 
 Daha sonra "rke up" komutu ile cluster kurulumunu başlatalım.
 
@@ -205,4 +205,4 @@ worker01   Ready    etcd,worker                10m   v1.18.16   192.168.1.22   <
 worker02   Ready    etcd,worker                10m   v1.18.16   192.168.1.23   <none>        CentOS Linux 7 (Core)   3.10.0-1127.el7.x86_64        docker://19.3.15
 ```
 
-![RKE%20(Rancher%20Kubernetes%20Engine)+%20Vagrant%20+%20Shell%20S%20255c823035ae46b4b1dd2c3a46ae562d/Untitled%201.png](RKE%20(Rancher%20Kubernetes%20Engine)+%20Vagrant%20+%20Shell%20S%20255c823035ae46b4b1dd2c3a46ae562d/Untitled%201.png)
+![Untitled1.png](RKE%20(Rancher%20Kubernetes%20Engine)+%20Vagrant%20+%20Shell%20S%20255c823035ae46b4b1dd2c3a46ae562d/Untitled%201.png)
